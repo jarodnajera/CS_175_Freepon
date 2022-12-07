@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(243, 255, 238);
+    padding-top: 70px;
+}
+
+.navbar.fixed-top {
+    background-color: #c2edce;
+}
+
+a.navbar-brand {
+    color: rgb(38, 113, 145);
+    font-size: 20px;
+    font-family: 'Coiny', cursive;
+}
+
+.navbar-nav > li {
+    padding-left: 10px;
+    padding-right: 10px;
+      
+}
+
+li.nav-item > a.nav-link {
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+}
+
+li > a.dropdown-item {
+    font-family: 'Coiny', cursive;
+}
+
+a:focus{
+    outline:none;
+} 
+
+a:hover {
+    color: black;
+}
+
+.navbar-nav > li > a:hover {
+    color: black;
+}
+
+.carousel {
+    max-width: 700px;
+    margin: auto;
+}
+
+@media (max-width: 700px) {
+    .carousel {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+.carousel-img {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#title {
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+    font-size: 35px;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Coiny', cursive;
+}
+
+a:hover {
+    color: black;
+}
+
+p {
+    color: white;
+    font-family: 'Coiny', cursive;
+    font-size: 14px;
+}
+
+.carousel-caption {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px;
+    top: auto;
+    bottom: 5px;
+}
+
+.carousel-wrapper {
+    margin-bottom: 20px;
+}
+
+.about-us {
+    background-color: #ffffff;
+    height: 600px;
+}
+
+#mission-title {
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#mission-statement {
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+    margin-left: 55px;
+    margin-right: 55px;
+    text-align: center;
+}
+
+.img-wrapper {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid-caption {
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+    font-size: 15px;
+}
+
+.grid-img-wrapper {
+    align-self: center;
+}

@@ -1,0 +1,118 @@
+h1 {
+    text-align: center;
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+}
+
+.event-calendar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 5px;
+    background-color: #c2edce;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 8px 10px #a4c8ae;
+}
+
+@media (max-width: 700px) {
+    .event-calendar {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+.event-calendar-day-label {
+    background-color: rgb(226, 255, 211);
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.event-calendar-day {
+    background-color: rgb(226, 255, 211);
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    border-radius: 50%;
+    width: 20px;
+    height:20px;
+}
+
+.today {
+    background-color: #9fcfac;
+}
+
+.marker {
+    background-color: rgb(252, 173, 76);
+}
+
+.event-calendar-month {
+    grid-column: 1 / span 7;
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.event-calendar-day .programs {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    left: 35%;
+    margin-left: -60px;
+}
+
+.event-calendar-day .programs::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.event-calendar-day:hover .programs {
+    visibility: visible;
+}
+
+.school-selector {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #c2edce;
+    font-family: 'Coiny', cursive;
+    color: rgb(38, 113, 145);
+    border-color: rgb(38, 113, 145);
+    border-width: 2px;
+}
+
