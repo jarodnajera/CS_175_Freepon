@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FOOPON</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+    <body>
+        <!-- Navbar Template -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Freepon</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="events.html">Event Calendar</a></li>
+                      <li><a class="dropdown-item" href="#">Become A Sponsor</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up/Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+          <!-- Main Content -->
+        <main>
+            <div class="login-wrapper">
+              <div class="grid-item">
+                <div id="login-title">
+                    LOGIN
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Username</span>
+                    <input type="text" class="form-control" placeholder="Type your username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Password</span>
+                    <input type="password" class="form-control" placeholder="Type your password" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div id="forgor">
+                    <a href="#">?Forgot Password</a>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div id="btn-wrapper">
+                    <button type="button" id="login-btn" class="btn btn-primary btn-lg">Login</button>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div id="sign-up">
+                    Don't have an account?
+                </div>
+              </div>
+              <div class="grid-item">
+                <div id="btn-wrapper">
+                    <button type="button" class="btn btn-primary btn-lg">Sign Up</button>
+                </div>
+              </div>
+            </div>
+        </main>
+          
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+          <script>
+            document.getElementById('login-btn').onclick = function() {
+              location.href = "user.html";
+            };
+          </script>
+    </body>
+</html>

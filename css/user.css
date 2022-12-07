@@ -1,0 +1,78 @@
+.user-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.col {
+    text-align: center;
+}
+
+#welcome-back {
+    font-family: 'Coiny', cursive;
+    font-size: 35px;
+    color: rgb(38, 113, 145);
+}
+
+#prof-pic {
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.user-bio {
+    margin-top: 35px;
+    font-family: 'Coiny', cursive;
+    font-size: 20px;
+    color: rgb(38, 113, 145);
+}
+
+.btn-wrapper {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Coiny', cursive;
+    font-size: 25px;
+    background-color: rgb(38, 113, 145);
+    border: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+#booked-title {
+    font-family: 'Coiny', cursive;
+    font-size: 35px;
+    color: rgb(38, 113, 145);
+    padding-bottom: 25px;
+}
+
+.event-caption {
+    font-family: 'Coiny', cursive;
+    font-size: 20px;
+    color: rgb(38, 113, 145);
+}
+
+.event-image {
+    text-align: left;
+}
+
+.event-wrapper {
+    background-color: #a4d9b3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+#carls {
+    padding-left: 30px;
+}

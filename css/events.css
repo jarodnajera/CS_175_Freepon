@@ -12,7 +12,7 @@ h1 {
     padding: 10px;
     margin: auto;
     border-radius: 10px;
-    max-width: 700px;
+    max-width: 900px;
     box-shadow: 8px 10px #a4c8ae;
 }
 
@@ -20,6 +20,10 @@ h1 {
     .event-calendar {
         margin-left: 25px;
         margin-right: 25px;
+    }
+
+    .event-calendar-day {
+        padding: 25px 0px;
     }
 }
 
@@ -39,7 +43,7 @@ h1 {
     color: rgb(38, 113, 145);
     font-family: 'Coiny', cursive;
     text-align: center;
-    padding: 25px 0px;
+    padding: 45px 0px;
     font-size: 15px;
     border-radius: 5px;
     position: relative;
@@ -115,4 +119,3 @@ h1 {
     border-color: rgb(38, 113, 145);
     border-width: 2px;
 }
-

@@ -1,0 +1,67 @@
+.login-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 15px;
+    background-color: #a4d9b3;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 5px 8px #6e997a;
+}
+
+.grid-item {
+   padding: 5px;
+   text-align: center;
+}
+
+#login-title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(38, 113, 145);
+    font-family: 'Coiny', cursive;
+    font-size: 35px;
+}
+
+.input-group {
+    box-shadow: 5px 5px #6e997a;
+}
+
+a {
+    color: black;
+    font-size: 15px;
+}
+
+a:hover {
+    color: white;
+}
+
+#forgor {
+    direction: rtl;
+    text-align: start;
+}
+
+#btn-wrapper {
+    text-align: center;
+}
+
+.btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Coiny', cursive;
+    font-size: 25px;
+    background-color: rgb(38, 113, 145);
+    border: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+#sign-up {
+    margin-top: 100px;
+    color: black;
+    font-family: 'Coiny', cursive;
+}
